@@ -1,0 +1,836 @@
+body{
+    margin: 0px;
+    padding: 0px
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo1{
+    width: 100%;
+    margin: 0 auto;
+    height: 50vh;
+    background-image: url("https://image.freepik.com/vector-gratis/textura-acuarela-rosa-claro-abstracto-fondo_100956-529.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo1 .mar1{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(230, 230,230, 0.2);
+}
+
+.logo1 .mar1 img{
+    width: 14%;
+    margin: 5px auto;
+    height: 135px;
+    border: none;
+}
+
+.nav{
+    width: auto;
+    background-color:#3b98f0;
+    display: flex;
+    height: 9vh;
+    position: relative;
+    flex-direction: row;
+}
+
+.nav nav{
+    width: 100%;
+    height: 100%;
+}
+
+.nav nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav nav ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    height: 100%;
+    padding: 5px 35px 5px 35px;
+    transition: all .3s;
+    color: #000000;
+    font-size: 16px;
+}
+
+.nav nav ul li:nth-child(1){
+    color: #f80a79;
+}
+
+.nav nav ul li:hover{
+    color:  #f80a79;
+    cursor: pointer;
+}
+
+.wit{
+    height: 400%;
+    background-image: url("https://images.unsplash.com/photo-1587997141322-503fdd07976e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    margin: 0%;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    line-height: 20px;
+}
+
+.wit p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    height: 380px;
+    margin-right: 50px;
+    margin-left: 10px;
+    line-height: 200px;
+}
+
+.wit h1{
+    font-size: 13px;
+    color: white;
+    height: 5px;
+    margin: 25px;
+    font-family:Verdana, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 15px;
+    line-height: 200px;
+}
+
+.wit button{
+    background-color: lightcoral;
+    top: 400px;
+    margin: 30px;
+    width: 100px;
+    height: 0 auto;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    width: 170px;
+    cursor: pointer;
+    border: none;
+    margin-left: 541px;
+    line-height: 60px;
+}
+
+.wit button i{
+    margin: 20px;
+    color: rgb(247, 244, 244);
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    width: 20px;
+    margin-left: 65px;
+    line-height: 55px;
+}
+
+button:hover{
+    background-color: rgb(18, 11, 19);
+}
+
+.fine{
+    width: 100%;
+    background-color:#3b98f0;
+    display: flex;
+    height: 9vh;
+    position: relative;
+    flex-direction: row;
+}
+
+.content{
+    width: 235%;
+    margin: 9%;
+    height: 200%;
+    justify-content: center;
+    display: flex;
+}
+
+.loort{
+    width: 100%;
+    margin: 2%;
+    height: 200%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-right:350px;
+    margin-left: -20px;
+}
+
+.clist{
+    width: 90%;
+    margin: 2%;
+    height: 10%;
+    margin-right: 45px;
+    margin-left: 245px;
+    justify-content: center;
+    display: flex;
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.care img{
+    width: 300px;
+    height: 200px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.form img{
+    width: 300px;
+    height: 200px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.card button{
+    background-color: lightcoral;
+    position:absolute;
+    top: 190px;
+    display: inline-block;
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 10px 0px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+    
+    button:hover{
+    background-color: black
+}
+
+
+.care button{
+    background-color: lightcoral;
+    color: white;
+    position:absolute;
+    top: 190px;
+    display: inline-block;
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+    
+    button:hover{
+    background-color:black
+}
+
+
+.form button{
+    background-color: lightcoral;
+    color: white;
+    position:absolute;
+    top: 164px;
+    display: inline-block;
+    font-size: 0.9em;
+    margin: -0px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+    
+    button:hover{
+    background-color:black
+}
+
+.card h1{
+    height: 150%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+    top: 100px;
+    font-size: 20px;
+    margin: -180px;
+    margin-left: -150px;
+}
+
+.care h2{
+    height: 150%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    top: 100px;
+    font-size: 20px;
+    margin: -180px;
+    margin-left: -150px;
+}
+
+.form h3{
+    height: 150%;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+    top: 100px;
+    font-size: 22px;
+    margin: -180px;
+    margin-left: -150px;
+}
+
+.ces{
+    position: absolute;
+    top: 250px;
+    height: 100px;
+    margin-left: -650px;
+    width: 300%;
+}
+
+.ces h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 0px;
+    color: midnightblue;
+}
+
+.ces p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: midnightblue;
+}
+
+.row{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 100px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.col-33{
+    width: 10%;
+    display: flex;
+    height: 100px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.sub2{
+    height: 100px;
+    text-align: center;
+    padding-top: 355px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.sub3{
+    height: 100%;
+    text-align: center;
+    padding-top: 230px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.sub4{
+    height: 100%;
+    text-align: center;
+    align-items: flex-start;
+    padding-top: 165px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.div{
+    background-color: rgb(99, 17, 17);
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.nun{
+    height: 20%;
+    text-align: center;
+    align-items: flex-start;
+    padding-top: 580px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.nun .moin{
+    background-image: url("https://www.dzoom.org.es/wp-content/uploads/2019/06/fotografia-paisaje-consejos-12.jpg");
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}
+
+
+.moin h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: -40%;
+    margin: 10px;
+    padding-top: 60px;
+    color:black;
+}
+
+.moin h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    height: 30px;
+    margin: 10px;
+    padding-top: 5px;
+    color: rgb(129, 129, 238);
+}
+
+.moin p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    height: -40%;
+    margin: 20px;
+    color:black;
+    width: 60%;
+    margin-left: 260px;
+}
+
+.btn1{
+    padding: 5px;
+    width: 490px;
+    font-size: 1.10em;
+    margin-right: 35px;
+    height: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.btn2 button{
+    background-color: lightcoral;
+    color: white;
+    display: inline-block;
+    font-size: 0.9em;
+    margin: 15px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+    
+    button:hover{
+    background-color:black
+}
+
+.creste{
+    background-image: url("http://mundourbano.com.co/wp-content/uploads/2016/02/narracion-fotografia.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.column{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.rou{
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    margin-top: 215px;
+}
+
+.dive{
+    width: 100%;
+    padding: 30px;
+}
+
+.dive h1{
+    height: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+    margin-left: 120px;
+    margin-top: -75px;
+}
+
+.dive h2{
+    height: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+    margin: 15px;
+    margin-left: 120px;
+    margin-top: 0px;
+    width: 85%;
+}
+
+.dive p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    height: 100%;
+    margin: 15px;
+    margin-left: 118px;
+    margin-top: 0px;
+}
+
+.dive button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 50px;
+    background-color: lightcoral;
+    color: white;
+    height: 20%;
+    margin: 10px 120px;
+    border: none;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+
+}
+    
+button:hover{
+    background-color:black
+}
+
+.contb h1{
+    height: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    color: rgb(17, 33, 104);
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.contb p{
+    height: 5%;
+    font-family:Impact,'Arial Narrow Bold', sans-serif;
+    color:rgb(17, 33, 104);
+    text-align: center;
+    font-size: 35px;
+    margin: -5px;
+}
+
+.rut{
+    width: 0%;
+    height: -10%;
+    display: flex;  
+    margin: 30px;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding:  0px 20px;
+    text-align: center;
+}
+
+.col-40{
+    width: 900px;
+    margin: 80px;
+    display: flex;
+    height: 200px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.lutd{
+    height: -15px;
+    margin: 0px;
+    width: 100px;
+    text-align: center;
+    padding-top: 63px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.lutd h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    height: 5px;
+    margin: 10px;
+    width: 200px;
+    margin-left: 40px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.lutd p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: black;
+    height: 200px;
+    margin: 10px;
+    width: 310px;
+    margin-left: -15px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.lutd1{
+    height: 30px;
+    margin: 0px;
+    width: 100px;
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.lutd1 h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    height: 170px;
+    margin: 10px;
+    width: 200px;
+    margin-left: 40px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.lutd1 p{
+    text-align: center;
+    padding-top: -10px;
+    font-size: 18px;
+    color: black;
+    height: 100px;
+    margin: -160px;
+    margin-left: 30px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+.lutd2{
+    height: 30px;
+    margin: 0px;
+    width: 290px;
+    text-align: center;
+    padding-top: 2px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.lutd2 h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    height: 170px;
+    margin: 10px;
+    width: 270px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.lutd2 p{
+    text-align: center;
+    padding-top: -10px;
+    font-size: 18px;
+    color: black;
+    height: 200px;
+    margin: -160px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.mei button{
+    background-color: lightcoral;
+    color: white;
+    display:block;
+    font-size: 0.9em;
+    margin: 120px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin-left: -270px;
+}
+    
+button:hover{
+    background-color:black;  
+}
+
+/*----------end navbar------------*/
+
+/* ----------footer------------*/
+.container-fond{
+    width: 100%;
+    background-image: url("https://image.freepik.com/vector-gratis/textura-acuarela-rosa-claro-abstracto-fondo_100956-529.jpg");
+    height: 97vh;
+    background-position: center;
+    background-size: 100%;
+}
+
+.eut img {
+    width: 20vh;
+    margin: 20 auto;
+    height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 600px;
+    background-size: 20%;
+    padding-top: 90px;
+}
+
+.container-fond .foor{
+    width: 100%;
+    height: 100%;
+}
+
+.container-fond .foor .riw:nth-child(1){
+    width: 80%;
+    margin: 0% auto;
+}
+
+.container-fond .foor .riw:nth-child(2){
+    width:70%;
+    margin: 0% auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(1){
+    width: 30%;
+    padding: 10px 10px;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(1) ul{
+    list-style: none;
+}
+
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(1) ul li{
+    padding: 5px 20px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 15px;
+    transition: ease-in-out .5s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(1) ul li:nth-child(1){
+    color:  #f80a79;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(1) ul li:hover{
+    color:  #f80a79;
+    cursor: pointer;
+
+}
+
+container-fond .foor .riw:nth-child(2) .columns:nth-child(1){
+    width: 30%;
+    padding: 20px;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(2) ul{
+    list-style: none;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(2) ul li{
+    padding: 5px 5px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 15px;
+    transition: ease-in-out .5s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(2) ul li:hover{
+    color:  #f80a79;
+    cursor: pointer;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(3){
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(3) form{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(3) form label{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(3) form input{
+    outline: none;
+    width: 280px;
+    padding: 6px 20px;
+    font-size: 1.2rem;
+}
+
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(3) form button{
+    width: 80%;
+    padding: 10px 12px;
+    margin-top: 10px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.container-fond .foor .riw:nth-child(2) .columns:nth-child(3) form button:hover{
+    background-color: rgb(245, 91, 91);
+    cursor: pointer;   
+}
+
+.container-fond .foor .riw:nth-child(3){
+    margin: 0% auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-fond .foor .riw:nth-child(3) img{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container-fond .foor .riw:nth-child(3) span{
+    width: 100%;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    color: black;
+    margin-top: 25px;
+}
+
+/* ----------end footer------------*/
